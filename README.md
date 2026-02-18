@@ -15,13 +15,13 @@ Cloud-based honeypot using Microsoft Sentinel SIEM to detect and respond to real
 
 #### Technologies Used
 
-- Cloud Platform: Microsoft Azure
-- Virtual Machine: Windows 10
-- SIEM: Microsoft Sentinel
-- Log Management: Azure Log Analytics Workspace
-- Query Language: KQL (Kusto Query Language)
-- Security Tools: Azure Network Security Groups (NSG), Windows Event Viewer
-- Threat Intelligence: GeoIP CSV Watchlist
+- Cloud Platform: Microsoft Azure.
+- Virtual Machine: Windows 10.
+- SIEM: Microsoft Sentinel.
+- Log Management: Azure Log Analytics Workspace.
+- Query Language: KQL (Kusto Query Language).
+- Security Tools: Azure Network Security Groups (NSG), Windows Event Viewer.
+- Threat Intelligence: GeoIP CSV Watchlist.
 
 ## Architecture & Network Diagram
 This lab involved several key components:
@@ -68,7 +68,7 @@ Built a Microsoft Sentinel Workbook to visualise the enriched data on an interac
 
 ## Next Steps
 This project so far covers the first steps for a SOC lab environment. In the next stage of the project, I am going to:
-- Create custom Sentinel analytic rules to automatically detect and alert on RDP brute force activity
-- Investigate and document two brute force attack incidents end-to-end
-- Develop new Sentinel Workbook dashboards to support incident investigation
-- Produce remediation recommendations to harden against brute force attacks, using automated playbooks and manual response procedures
+- Create custom Sentinel analytic rules to automatically detect and alert on RDP brute force activity.
+- Investigate and document two brute force attack incidents end-to-end.
+- Develop new Sentinel Workbook dashboards to support incident investigation.
+- Produce remediation recommendations to harden against brute force attacks, using automated playbooks and manual response procedures.
